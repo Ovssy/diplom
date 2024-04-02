@@ -23,6 +23,7 @@ body{
     font-family: 'Roboto';
     overflow-x: hidden;
     overflow-y: auto;
+    color:#22253B;
 }
 
 .container{
@@ -117,6 +118,8 @@ body{
 .container-background{
     background-color: rgba(255, 255, 255, 1);
     padding: 90px 10px 12px 10px;
+    border-radius: 30px;
+    margin-bottom: 60px;
 }
 
 .title{
@@ -198,6 +201,54 @@ body{
     margin-bottom: 24px;
 }
 
+.pros__list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.pros__item{
+    width: 145px;
+    background-color: #EAF2F5;
+    border-radius: 20px;
+    padding: 25px 0 20px 0;
+}
+
+.pros__item:last-child{
+    display: flex;
+    width: 300px;
+    padding: 20px 45px;
+    gap: 17px;
+}
+
+.pros__item img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.pros__item h3{
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.pros__item p{
+    font-size: 9px;
+    line-height: 12px;
+    text-align: center;
+}
+
+.pros__item:last-child h3, .pros__item:last-child p{
+    text-align: start;
+}
+
+.pros__item:last-child img{
+    margin-top: 5px;
+}
+
 .technologies__block-text.visually-hidden {
     @media (max-width: 768px) {
         position: absolute;
@@ -211,4 +262,87 @@ body{
         clip: rect(0 0 0 0);
         overflow: hidden;
     }
+}
+
+
+
+.education{
+    margin-bottom: 62px;
+}
+
+.education__description{
+    font-size: 12px;
+    line-height: 17px;
+    color: #22253B;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.education__list{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 36px 20px;
+    margin-bottom: 20px;
+}
+
+.education__item{
+    border-bottom: 1px solid #EAF2F5;
+    margin-bottom: 18px;
+}
+
+.education__item:last-child{
+    border: none;
+    margin-bottom: 0;
+}
+
+.education__item-number{
+    font-size: 50px;
+    font-weight: 700;
+    color: #38BFF2;
+    margin-bottom: 10px;
+}
+.education__item-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.education__item-text{
+    font-size: 12px;
+    line-height: 14px;
+    color: #22253B;
+    margin-bottom: 18px;
+}
+
+.education__block-btn{
+    margin: 0 auto;
+    width: 300px;
+    padding: 11px 26px 22px 26px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+}
+
+.education__block-btn p{
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.education__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 82px;
+    background-color: #F15525;
+    color: #FFFFFF;
+    width: 249px;
+    height: 70px;
+    font-size: 16px;
+    margin-bottom: 12px;
 }
