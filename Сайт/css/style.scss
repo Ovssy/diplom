@@ -247,6 +247,8 @@ body{
 
 .pros__item:last-child img{
     margin-top: 5px;
+    width: 37px;
+    height: 37px;
 }
 
 .technologies__block-text.visually-hidden {
@@ -268,6 +270,10 @@ body{
 
 .education{
     margin-bottom: 62px;
+}
+
+.education__title{
+    margin-bottom: 15px;
 }
 
 .education__description{
